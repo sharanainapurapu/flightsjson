@@ -3,7 +3,7 @@
 
 [![Available Flights](https://images.financialexpress.com/2019/02/airfares.png)](https://images.financialexpress.com/2019/02/airfares.png)
 
-##### Steps to generate array of scheduled flights with size n (n is default set to 1000)
+### Steps to generate array of scheduled flights with size n (n is default set to 1000)
 - Open https://www.json-generator.com/
 - Copy the code from flightsDataGenerator file and paste it into the editor (json-generator.com)
 - Click on generate 
