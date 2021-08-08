@@ -2,7 +2,7 @@
   '{{repeat(1000)}}',
   {
     airlines: function () { 
-      var airlines = [ 
+      var airlines_local = [ 
         {
           id: 'spicejet',
           name: 'SpiceJet',
@@ -30,8 +30,8 @@
         }
       ];      
       var minLength = 0;
-      var maxLength = airlines.length - 1;
-      return airlines[Math.ceil(Math.random() * (maxLength - minLength) + minLength)];
+      var maxLength = airlines_local.length - 1;
+      return airlines_local[Math.ceil(Math.random() * (maxLength - minLength) + minLength)];
     },
     from: function () {
       var airports = [
@@ -133,7 +133,9 @@
     }, 
     departure: function () {
       var startDate = new Date(); 
-      var endDate = new Date(2021, 9, 1);
+      // Generates n flight schedules from today to September 1 2021
+      // Please feel free to change it according to your need
+      var endDate = new Date(2021, 9, 1); 
       return new Date(startDate.getTime() + Math.random() * (endDate.getTime() - startDate.getTime()));
     },       
     arrival: function() { 
