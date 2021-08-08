@@ -1,6 +1,6 @@
 # Flights JSON
-##### _- You are a click away from generating the JSON required for list of scheduled flights_
-#
+#### _You are a click away from generating a JSON object which will have a list of scheduled flights_
+
 [![Available Flights](https://images.financialexpress.com/2019/02/airfares.png)](https://images.financialexpress.com/2019/02/airfares.png)
 
 ##### Steps to generate array of scheduled flights with size n (n is default set to 1000)
