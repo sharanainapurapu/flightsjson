@@ -1,8 +1,8 @@
 # Flights JSON
-##### _You are a click away to generate dynamic flight schedules_
+### _You are a click away to generate dynamic flight schedules_
 ###### <=================================================================================>
-#
-#
+
+
 #### DOCS
 ##### Sample Data with n=1
 n denotes total number of items in an array
