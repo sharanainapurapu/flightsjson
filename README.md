@@ -1,7 +1,39 @@
 # Flights JSON
+##### _You are a click away to generate dynamic flight schedules_
+###### <=================================================================================>
+#
+#
+#### DOCS
+##### Sample Data with n=1
+n denotes total number of items in an array
+```sh
+ [{
+    "airlines": {
+      "id": "airindia", 
+      "name": "Air India",
+      "logo": "https://1000logos.net/wp-content/uploads/2020/09/Air-India-logo-1024x614.png"
+    },
+    "from": {
+      "IATA_code": "HYD",
+      "ICAO_code": "VOHY",
+      "airport_name": "Hyderabad International Airport",
+      "city_name": "Hyderabad"
+    },
+    "to": {
+      "IATA_code": "BOM",
+      "ICAO_code": "VABB",
+      "airport_name": "Chhatrapati Shivaji International Airport",
+      "city_name": "Mumbai"
+    },
+    "departure": "2021-09-14T23:07:02.050Z",
+    "arrival": "2021-09-15T01:21:02.050Z",
+    "price": 3654
+  }]
+```
 
+##### Steps to generate array of flight schedules of size n
 - Open https://www.json-generator.com/
-- Copy paste the below code
+- Copy-paste the below code in the online editor (json-generator.com)
 - Click on generate 
 
 ```sh
@@ -162,28 +194,3 @@
 ```
 
 The above code generates an array of 1000 flight scheduled between current date and 1st of September 2021, with, each entry unique. If you are viewing this article anytime after 1st of September 2021, please go ahead and change the dates accordingly. 
-
-```sh
-  {
-    "airlines": {
-      "id": "airindia",
-      "name": "Air India",
-      "logo": "https://1000logos.net/wp-content/uploads/2020/09/Air-India-logo-1024x614.png"
-    },
-    "from": {
-      "IATA_code": "HYD",
-      "ICAO_code": "VOHY",
-      "airport_name": "Hyderabad International Airport",
-      "city_name": "Hyderabad"
-    },
-    "to": {
-      "IATA_code": "BOM",
-      "ICAO_code": "VABB",
-      "airport_name": "Chhatrapati Shivaji International Airport",
-      "city_name": "Mumbai"
-    },
-    "departure": "2021-09-14T23:07:02.050Z",
-    "arrival": "2021-09-15T01:21:02.050Z",
-    "price": 3654
-  }
-```
