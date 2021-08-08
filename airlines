@@ -1,0 +1,27 @@
+[ 
+        {
+          id: 'spicejet',
+          name: 'SpiceJet',
+          logo: 'https://1000logos.net/wp-content/uploads/2021/07/SpiceJet-Logo.png'
+        },
+        {
+          id: 'indigo',
+          name: 'Indigo',
+          logo: 'https://www.logo.wine/a/logo/IndiGo/IndiGo-Logo.wine.svg'
+        },
+        {
+          id: 'goair',
+          name: 'Go Air',
+          logo: 'https://www.nextbigbrand.in/wp-content/uploads/2019/02/goair-e1550296161606.png'
+        }, 
+        {
+          id: 'airasia',
+          name: 'Air Asia',
+          logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/AirAsia_New_Logo.svg'
+        },
+        {
+          id: 'airindia',
+          name: 'Air India',
+          logo: 'https://1000logos.net/wp-content/uploads/2020/09/Air-India-logo-1024x614.png'
+        }
+      ]
