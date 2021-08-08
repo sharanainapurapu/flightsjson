@@ -41,8 +41,8 @@ n denotes total number of scheduled flights data that you want in an array
 
 | Key | Description |
 | ------ | ------ |
-| airlines | Randomly generated object that is picked up from array of airlines configured. Complete list of airlines is available in airlines file [/airlines][PlDb] |
-| from | Randomly generated object that is picked up from array of airports configured. Complete list of airlines is available in airlines file [/airports][PlGh] |
+| airlines | Randomly generated object that is picked up from array of airlines configured. Complete list of airlines is available in airlines file |
+| from | Randomly generated object that is picked up from array of airports configured. Complete list of airlines is available in airlines file |
 | to | same as from key |
 | departure | Departure data and time is randomly generated between today and the end day that you configure |
 | arrival | Arraival is randomly calculated by adding few hours to the departure time  |
