@@ -10,6 +10,8 @@
 
 
 The above code generates an array of 1000 flight scheduled between current date and 1st of September 2021, with each entry unique. If you are viewing this article anytime after 1st of September 2021, please go ahead and change the dates accordingly. Please review docs section for more information. 
+
+#### Demo: https://api.jsonbin.io/b/610c2f19d5667e403a39eea5/1 
  
 ### DOCS
 ##### Sample Data with n=1
